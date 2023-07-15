@@ -1,3 +1,16 @@
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/taitan-x/AloneMusicBot"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-darkred?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+
+
+
+
+
+
+
+
+
+
+
+
 <img src="https://telegra.ph//file/9e8ce3092848a1bc5d9d6.jpg" align="right" width="200" height="200"/>
 
 # Alone Music Bot <img src="https://img.shields.io/github/v/release/TeamAloneOp/AloneMusicBot?color=black&logo=github&logoColor=black&style=social" alt="RELEASE">
