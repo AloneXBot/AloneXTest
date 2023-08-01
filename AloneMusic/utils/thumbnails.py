@@ -90,12 +90,12 @@ async def gen_thumb(videoid):
         para = textwrap.wrap(title, width=32)
         j = 0
         draw.text(
-            (5, 5), f"ALONE MUSIC", fill="white", font=name_font
+            (5, 5), f"ALONE MUSIC", fill="yellow", font=name_font
         )
         draw.text(
             (600, 150),
             "ALONE PLAYING",
-            fill="white",
+            fill="yellow",
             stroke_width=2,
             stroke_fill="pink",
             font=font2,
@@ -106,7 +106,7 @@ async def gen_thumb(videoid):
                 draw.text(
                     (600, 340),
                     f"{line}",
-                    fill="white",
+                    fill="yellow",
                     stroke_width=1,
                     stroke_fill="pink",
                     font=font,
@@ -116,7 +116,7 @@ async def gen_thumb(videoid):
                 draw.text(
                     (600, 280),
                     f"{line}",
-                    fill="white",
+                    fill="yellow",
                     stroke_width=1,
                     stroke_fill="pink",
                     font=font,
