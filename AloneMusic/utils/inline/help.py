@@ -1,17 +1,6 @@
-#
-# Copyright (C) 2021-2022 by TeamAloneOp@Github, < https://github.com/TeamAloneOp >.
-#
-# This file is part of < https://github.com/TeamAloneOp/AloneMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamAloneOp/AloneMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
-
 from typing import Union
 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-
-from AloneMusic import app
 
 
 def help_pannel(_, START: Union[bool, int] = None):
@@ -34,28 +23,58 @@ def help_pannel(_, START: Union[bool, int] = None):
         [
             [
                 InlineKeyboardButton(
-                    text=_["H_B_1"],
+                    text="Aᴅᴍɪɴ",
                     callback_data="help_callback hb1",
                 ),
                 InlineKeyboardButton(
-                    text=_["H_B_2"],
+                    text="Aᴜᴛʜ",
                     callback_data="help_callback hb2",
                 ),
-            ],
-            [
                 InlineKeyboardButton(
-                    text=_["H_B_3"],
+                    text="Bʟᴀᴄᴋʟɪsᴛ",
                     callback_data="help_callback hb3",
                 ),
+            ],
+            [
                 InlineKeyboardButton(
-                    text=_["H_B_4"],
+                    text="Bʀᴏᴀᴅᴄᴀsᴛ",
                     callback_data="help_callback hb4",
+                ),
+                InlineKeyboardButton(
+                    text="Gʙᴀɴ",
+                    callback_data="help_callback hb12",
+                ),
+                InlineKeyboardButton(
+                    text="Lʏʀɪᴄs",
+                    callback_data="help_callback hb5",
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text=_["H_B_6"],
-                    callback_data="help_callback hb5",
+                    text="Pɪɴɢ",
+                    callback_data="help_callback hb7",
+                ),
+                InlineKeyboardButton(
+                    text="Pʟᴀʏ",
+                    callback_data="help_callback hb8",
+                ),
+                InlineKeyboardButton(
+                    text="Pʟᴀʏʟɪsᴛ",
+                    callback_data="help_callback hb6",
+                ),
+            ],
+            [
+                InlineKeyboardButton(
+                    text="Vɪᴅᴇᴏᴄʜᴀᴛs",
+                    callback_data="help_callback hb10",
+                ),
+                InlineKeyboardButton(
+                    text="Sᴛᴀʀᴛ",
+                    callback_data="help_callback hb11",
+                ),
+                InlineKeyboardButton(
+                    text="Sᴜᴅᴏ",
+                    callback_data="help_callback hb9",
                 ),
             ],
             mark,
@@ -74,7 +93,7 @@ def help_back_markup(_):
                 ),
                 InlineKeyboardButton(
                     text=_["CLOSE_BUTTON"], callback_data=f"close"
-                ),
+                )
             ]
         ]
     )
@@ -85,8 +104,8 @@ def private_help_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["S_B_1"],
-                url=f"https://t.me/{app.username}?start=help",
+                text="❄ Hᴇʟᴩ ❄",
+                url=f"https://t.me/AloneXMusicBot?start=help",
             ),
         ],
     ]
